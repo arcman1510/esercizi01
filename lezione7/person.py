@@ -15,7 +15,7 @@ print(f'Età = {lorenzo.age}')
 danila = Person("Danila", "Uahatsou", 21)
 print(f'Nome ={danila.name}, Cognome {danila.surname}, Età = {danila.age}')
 danila.surname = "Rahatsou" #"Nono non Eue, la R di Roma Daje Roma"
-print(f'Età = {lorenzo.age}')
+print(f'Cognome = {danila.surname}')
 
 
 name: str = input()
