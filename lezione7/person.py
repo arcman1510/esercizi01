@@ -7,7 +7,6 @@ class Person:
         self.surname = surname
         self.age = age
 
-
 lorenzo = Person("Lorenzo", "Maggi", 25)
 print(f'Nome ={lorenzo.name}, Cognome {lorenzo.surname}, Età = {lorenzo.age}')
 lorenzo.age = 22
