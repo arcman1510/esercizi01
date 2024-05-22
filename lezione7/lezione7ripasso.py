@@ -16,6 +16,7 @@ Result
 [3, 4, 5, 1, 2]
 """
 
+
 def rotate_left(elements: list, k: int) -> list:
     # Loop through the range of n positions to rotate
     for i in range(k):
