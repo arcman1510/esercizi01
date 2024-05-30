@@ -6,3 +6,4 @@ class Film:
 
         def __str__(self) -> str:
             return f'Id Film(id={self.id}, titolo ={self.titolo}, durata in minuti ={self.seats})'
+    

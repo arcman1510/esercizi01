@@ -23,7 +23,7 @@ class Building:
     def add_room(self, room: Room):
         if room not in self.rooms\
         and room.get_floor() <= self.get_num_floors():
-            self.erooms.append(room)
+            self.rooms.append(room)
     
     def area(self) -> float:
         sum_area: float = 0
