@@ -32,11 +32,11 @@ if __name__ == "__main__":
 
     tic: float = time.time()
 
-    t1 = Process(target=sleep)
-    t2 = Process(target=sleep)
-    t3 = Process(target=sleep)
-    t4 = Process(target=sleep)
-    t5 = Process(target=sleep)
+    t1 = Process(target=bubble_sort_v2)
+    t2 = Process(target=bubble_sort_v2)
+    t3 = Process(target=bubble_sort_v2)
+    t4 = Process(target=bubble_sort_v2)
+    t5 = Process(target=bubble_sort_v2)
     t1.start()
     t2.start()
     t3.start()
