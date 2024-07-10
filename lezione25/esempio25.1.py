@@ -34,10 +34,19 @@ if __name__ == "__main__":
 
     t1 = Process(target=sleep)
     t2 = Process(target=sleep)
+    t3 = Process(target=sleep)
+    t4 = Process(target=sleep)
+    t5 = Process(target=sleep)
     t1.start()
     t2.start()
+    t3.start()
+    t4.start()
+    t5.start()
     t1.join
     t2.join
+    t3.join
+    t4.join
+    t5.join
     toc: float = time.time()
     time_elapsed: float = toc - tic
 
