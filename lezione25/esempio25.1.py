@@ -51,3 +51,7 @@ if __name__ == "__main__":
     time_elapsed: float = toc - tic
 
     print(f"{time_elapsed=}")
+
+    condizione: bool = True and False
+
+    assert condizione, f"Il valore di condizione è {condizione}"
