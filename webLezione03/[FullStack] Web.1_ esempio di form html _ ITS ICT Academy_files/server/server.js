@@ -18,5 +18,5 @@ app.get('/formRegistrazione', (req, res) => {
 //pagina di gestione dei dati della form se il metodo è GET
 app.get('/gestisciDatiForm', (req, res) => {
     console.log(req.query.fname);
-    res.send("<html>Buona serata a tutti</html>");
+    res.send("<html>Buona serata " + req.query.fname + "</html>");
     });
