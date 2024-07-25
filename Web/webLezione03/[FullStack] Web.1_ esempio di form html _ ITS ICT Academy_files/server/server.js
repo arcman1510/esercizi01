@@ -15,9 +15,9 @@ app.get('/formRegistrazione', (req, res) => {
     res.sendFile("formSemplice.html", { root: './htdoc' });
     });
 
-app.get('/sendFilfe', (req, res) => {
-    console.log("Mi hai chiesto la form di registrazione");
-    res.sendFile("sendFile.html", { root: './htdoc' });
+ app.get('/sendFile', (req, res) => {
+    console.log("Mi hai chiesto la form di invio del file");
+    res.sendFile("sendfile.html", { root: './htdoc' });
     });
 
 //pagina di gestione dei dati della form se il metodo è GET
@@ -33,3 +33,4 @@ app.post('/mansendfile',(req, res) => {
     else
         res.send("<html>Attenzione, password errata!! </html>")
     });
+
