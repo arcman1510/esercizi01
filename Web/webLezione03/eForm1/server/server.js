@@ -17,7 +17,7 @@ app.get('/formRegistrazione', (req, res) => {
 
  app.get('/sendFile', (req, res) => {
     console.log("Mi hai chiesto la form di invio del file");
-    res.sendFile("sendfile.html", { root: './htdoc' });
+    res.sendFile("sendFile.html", { root: './htdoc' });
     });
 
 //pagina di gestione dei dati della form se il metodo è GET
