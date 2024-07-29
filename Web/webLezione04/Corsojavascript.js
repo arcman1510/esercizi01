@@ -19,16 +19,14 @@ npm install prompt-sync
 
 */
 
-const prompt = require('prompt-sync')();
 
-/*
+const prompt = require('prompt-sync')();
 const str = prompt('Enter a string: ');
 console.log("Hai inserito " + str);
-process.exit(0);
-*/
+process.exit(7);
 
-/*
-var a;
+
+/* a;
 var b;
 a = prompt("Inserisci primo numero:")
 b = prompt("Inserisci secondo numero:")
@@ -47,20 +45,30 @@ c = a1 + b1
 console.log("La somma vale " + c) 
 */
 
-
+/*
 a = prompt("Inserisci primo numero:")
 b = prompt("Inserisci secondo numero:")
 c = prompt("Inserisci operatore:")
 a1 = parseInt(a)
 b1 = parseInt(b)
 if(c=="+")
+{
+    console.log("Hai richiesto la somma") 
 	d = a1 + b1
+}
+
 if(c=="-")
+{
 	d = a1 - b1
+    oper = 1
+}
+
+if(oper=)
+
 
 console.log("Risultato " + d) 
-
-
+process.exit(0);
+*/
 
 
 
@@ -71,14 +79,14 @@ messaggio e poi visualizza a schermo il messaggio richiamando la funzione consol
 
 
 //Esempio num. 2
-/*
+
 var A;
 var B;
 A = 3;
 B = "buongiorno a tutti";
 console.log("Il tipo della var A e' " + typeof(A) + "\n");
 console.log("Il tipo della var B e' " + typeof (B) + "\n");
-*/
+
 
 
 /*ESERCIZIO Crea una variabile e copiaci dentro un numero. Stampa il tipo della variabile. 
