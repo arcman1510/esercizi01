@@ -8,9 +8,9 @@ Esercizo di base che stampa a schermo la stringa di testo "ciao".
 La funzione console.log, prende come input una stringa (nell'esempio
 la stringa "ciao" e produce una stampa a schermo della stessa.)
  */
-/*
+
 console.log("ciao");
-*/
+process.exit(0);
 
 /*
 Per usare il prompt:
@@ -83,7 +83,7 @@ console.log("Il tipo della var B e' " + typeof (B) + "\n");
 
 /*ESERCIZIO Crea una variabile e copiaci dentro un numero. Stampa il tipo della variabile. 
 Nella stessa variabile copiaci dentro una stringa. Verifica che il tipo della
-variabile è cambiato.
+variabile ï¿½ cambiato.
 */
 
 /*
@@ -161,8 +161,8 @@ if(iPosizione >= 0)
 
 
 /*ESERCIZIO: scrivere un programma che data una stringa (es. sMiaStringa = "buonasera")
-verifica se la stringa contiene la lettera f dal sesto carattere in poi. Se la stringa è
-più corta di 4 (es. cane) stampa a schermo direttamente l'esito negativo.*/
+verifica se la stringa contiene la lettera f dal sesto carattere in poi. Se la stringa ï¿½
+piï¿½ corta di 4 (es. cane) stampa a schermo direttamente l'esito negativo.*/
 
 
 /*ESERCIZIO: utilizzando il metodo indexOf scrivere un programma che verifica se la 
@@ -288,7 +288,7 @@ else{
 //***************
 //Esempio num. 2
 /*
-Sostituire è con \u00E8 per ottenere la e accentata stampata bene.
+Sostituire ï¿½ con \u00E8 per ottenere la e accentata stampata bene.
 */
 /*
 var A;
@@ -330,7 +330,7 @@ console.log("Il tipo della var A \u00E8 " + typeof (A) + ". Il suo valore \u00E8
 //*************
 //Esempio num 4
 /*
-La proprietà str.length si applica alle variabili di tipo stringa. Che succede per le altre variabili?
+La proprietï¿½ str.length si applica alle variabili di tipo stringa. Che succede per le altre variabili?
 */
 /*
 var A;
@@ -520,7 +520,7 @@ while (resto != 0)
     B = resto;
     resto = A % B;
 }
-console.log("Il MCD è " + B);
+console.log("Il MCD ï¿½ " + B);
 */
 
 
@@ -1005,7 +1005,7 @@ rl.on('line', (line) => {
 
 /*L'OPERATORE new SI USA QUANDO SI VUOLE CREARE L'ISTANZA DI UN OGGETTO CREATO A PARTIRE DA UNA FUNZIONE.
 Metti caso di volere creare un tipo di oggetto per le macchine. 
-Vuoi che questo tipo di oggetto si chiami car, e vuoi che abbia queste proprietà: 
+Vuoi che questo tipo di oggetto si chiami car, e vuoi che abbia queste proprietï¿½: 
 make (brand, marca), 
 model (modello) e 
 year (anno). 
@@ -1101,7 +1101,7 @@ StampaVect(arr, 0, 4);
 
 
 /*
-Creo una funzione stampa() perchè console.log ogni volta va accapo
+Creo una funzione stampa() perchï¿½ console.log ogni volta va accapo
 Uso process.stdout.write ma vuole come argomento una stringa
 */
 /*
